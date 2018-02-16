@@ -1,0 +1,10 @@
+body {
+    background-color: #d6d8d9;
+}
+.cell {
+    height: 50px;
+    background: #dddddd;
+}
+.highlight {
+    background-color: lightgreen;
+}

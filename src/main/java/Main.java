@@ -7,7 +7,7 @@ public class Main {
             response.redirect("/index.html");
             return null;
         }));
-        get("/blurbs", ((request, response) -> {
+        get("/hotdog", ((request, response) -> {
             response.type("application/json");
             return "{\n" +
                     "  \"blurbs\": [\n" +
